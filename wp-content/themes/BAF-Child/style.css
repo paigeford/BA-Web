@@ -7,7 +7,354 @@
  Template:       Divi
  Version:        1.0.0
 */
- 
- 
+
 /* =Theme customization starts here
 ------------------------------------------------------- */
+
+/* Spacing */
+
+.desktop-padding {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 1.25em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 0.8em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.unset-case {
+  text-transform: unset;
+}
+
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Spacing */
+
+.small-pb {
+  padding-bottom: 10px;
+}
+
+.large-pb {
+  padding-bottom: 20px;
+}
+
+.small-pt {
+  padding-bottom: 10px;
+}
+
+.large-pt {
+  padding-bottom: 20px;
+}
+
+/* Typography - Color */
+
+.white-text {
+  color: #ffffff;
+}
+.light-gray-text {
+  color: #777777;
+}
+.gray-text {
+  color: #242424;
+}
+.yellow-text {
+  color: #ca9c39;
+}
+
+/* Testimonial */
+.testimonial-description {
+  font-weight: 600;
+}
+.author {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 0px;
+  line-height: 1.15;
+}
+.job-title {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.15;
+}
+hr.yellow-divider {
+  border: 1px solid #ffc425;
+  margin-bottom: 30px;
+}
+
+/* Lists */
+
+ul.feature-list-column1,
+ul.feature-list-column2 {
+  width: 48%;
+  float: left;
+  list-style-image: url("https://ba-web.s3.us-east-2.amazonaws.com/global/check.png");
+  padding: 10px 0px 20px 25px;
+  font-family: "Teko";
+}
+ul.feature-list-column1,
+ul.feature-list-column2 li {
+  font-weight: 600;
+}
+
+/* Mega Menu */
+
+.et-menu-nav li.mega-menu > ul {
+  padding: 0px;
+}
+
+.shop-nav-img {
+  background-image: url("http://ba-web.localhost/wp-content/uploads/2021/10/320x500.png");
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.et_pb_menu .et-menu > li {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* Buttons side by side for Fan Page */
+.btn-inline .et_pb_button_module_wrapper {
+  display: inline-block;
+  padding-bottom: 20px;
+  margin: 0 10px;
+}
+
+/* Button Styles */
+
+.yellow-button {
+  background: #ffc425;
+  border: 0;
+  font-family: "Teko";
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  padding: 0.5em 1em 0.35em;
+  text-transform: uppercase;
+  color: #242424;
+  text-decoration: none;
+  line-height: normal;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.yellow-button:hover {
+  background: #ffc425;
+  color: #242424;
+}
+
+.transparent-button {
+  background: transparent;
+  border: 2px solid #ffc425;
+  font-family: "Teko";
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  padding: 0.5em 1em 0.35em;
+  text-transform: uppercase;
+  color: #ffc425;
+  text-decoration: none;
+  line-height: normal;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  letter-spacing: 1px;
+}
+
+.transparent-button:hover {
+  background: #ffc425;
+  border: 2px solid #ffc425;
+  color: #242424;
+}
+
+/* Homepage Slider */
+
+#circle-white-overlay {
+  box-shadow: 0px 8px 62px 8px #000;
+  background: #fff;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 400px;
+}
+
+.content-overlay {
+  position: relative;
+  top: -400px;
+  width: 400px;
+}
+
+.content-cs-overlay {
+  position: relative;
+  top: -55px;
+  width: 400px;
+  padding: 0px 30px;
+}
+
+.yellow-button.slider-button {
+  width: 140px;
+  margin: 0 auto;
+}
+
+/* Carousel */
+
+.square {
+  box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
+  padding: 20px;
+  position: relative;
+  top: -20px;
+  background: #fff;
+}
+
+.square-bg-teal {
+  box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 30%);
+  padding: 20px;
+  position: relative;
+  top: -20px;
+  background: #55868c;
+}
+
+.slider-section {
+  padding-bottom: 250px !important;
+}
+
+/* Image with Overlay */
+.image-with-overlay {
+  height: 400px;
+  width: 335px;
+}
+
+.teal-rectangle {
+  background-color: #55868c;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  top: 220px;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1280px) {
+  /* Image with Overlay */
+  .image-with-overlay {
+    height: 400px;
+    width: 285px;
+  }
+
+  .teal-rectangle {
+    top: 190px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  /* Spacing */
+  .mobile-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  /* Image with Overlay */
+
+  .image-with-overlay {
+    height: 350px;
+    width: 260px;
+  }
+
+  .teal-rectangle {
+    top: 140px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .desktop-padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .btn-inline .et_pb_button_module_wrapper {
+    display: block;
+  }
+
+  .slider-section {
+    padding-bottom: 20px !important;
+    padding-top: 0px;
+  }
+
+  /* Images with Overlays */
+  .image-with-overlay {
+    height: 350px;
+    width: 100%;
+  }
+
+  .teal-rectangle {
+    top: 210px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Images with Overlays */
+
+  .teal-rectangle {
+    top: 60px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /* Images with Overlays */
+
+  .teal-rectangle {
+    top: 45px;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  /* Images with Overlays */
+
+  .teal-rectangle {
+    top: 30px;
+  }
+}

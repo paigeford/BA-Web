@@ -123,6 +123,11 @@ class ET_Builder_Do_Not_Cache_Page {
 			return;
 		}
 
+		// Disable in the Visual Builder
+		if ( et_fb_is_enabled() ) {
+			return;
+		}
+
 		$post_id          = et_core_page_resource_get_the_ID();
 		$is_preview       = is_preview() || is_et_pb_preview();
 		$forced_in_footer = $post_id && et_builder_setting_is_on( 'et_pb_css_in_footer', $post_id );

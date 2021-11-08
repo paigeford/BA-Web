@@ -1,3 +1,9 @@
+= 8.4.302 (2021-10-21) =
+* Fix for search function in HubSpot Gutenberg block
+
+= 8.4.301 (2021-10-21) =
+* Fix side navigation option highlight for list
+
 = 8.4.90 (2021-08-10) =
 * Add EU prefix to scripts domains for EU portals
 
@@ -395,14 +401,4 @@
 * Reduce loading time for non authenticated users
 * Improve performances when navigating between pages
 * Add tests
-
-= 7.4.1 (2019-05-06) =
-* Implement faster navigation
-* Fix signup url
-* Use i18n on PHP
-
-= 7.4.0 (2019-04-29) =
-* Improve performances
-* Remove dependencies from HubSpot's CDN
-* Update license
 

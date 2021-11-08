@@ -6,7 +6,7 @@ Tags: CRM, Email Marketing, Live Chat, Forms, Analytics, Popups, Newsletter
 Requires at least: 4.0
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 8.4.260
+Stable tag: 8.4.329
 
 Capture, organize and engage web visitors with free forms, live chat, CRM (contact management), email marketing, and analytics. Easy to use, no coding.
 
@@ -228,12 +228,12 @@ Please visit the <a href="https://community.hubspot.com/?utm_source=wordpress-pl
 == Changelog ==
 
 <a href="http://plugins.svn.wordpress.org/leadin/trunk/changelog.txt" target="_blank">Full changelog here</a>
-- Current version: 8.4.260
-- Version release date: 2021-10-08
+- Current version: 8.4.329
+- Version release date: 2021-10-26
 
-= 8.4.90 (2021-08-10) =
-* Add EU prefix to scripts domains for EU portals
+= 8.4.302 (2021-10-21) =
+* Fix for search function in HubSpot Gutenberg block
 
-= 8.4.60 (2021-08-05) =
-* Added development backdoor for the new odyssey signup flow
+= 8.4.301 (2021-10-21) =
+* Fix side navigation option highlight for list
 
